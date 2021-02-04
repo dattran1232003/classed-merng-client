@@ -17,11 +17,11 @@ const cache = new InMemoryCache({
 
 persistCacheSync({
   cache,
-  storage: new SessionStorageWrapper(window.sessionStorage)
+  storage: new SessionStorageWrapper(sessionStorage || window.sessionStorage)
 })
 
 const httpLink = new HttpLink({
-  uri: '/'
+  uri: 'http://fathomless-brushlands-63528.herokuapp.com/'
 })
 
 const authLinkSync = setContext(() => {
