@@ -21,7 +21,7 @@ persistCacheSync({
 })
 
 const httpLink = new HttpLink({
-  uri: 'http://fathomless-brushlands-63528.herokuapp.com/'
+  uri: '/'
 })
 
 const authLinkSync = setContext(() => {
