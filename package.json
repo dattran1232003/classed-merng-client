@@ -2,7 +2,6 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "engines": { "node": "14.15.4" },
   "proxy": "http://fathomless-brushlands-63528.herokuapp.com/",
   "dependencies": {
     "@apollo/client": "^3.3.6",

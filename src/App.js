@@ -1,5 +1,5 @@
 import 'semantic-ui-css/semantic.min.css'
-import './App.scss';
+import './App.scss'
 
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
@@ -26,4 +26,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
